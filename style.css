@@ -119,7 +119,7 @@ section {
     margin-top: 10px; /* Adds spacing between the image and the info box */
     text-align: center;
     color: white;
-    background: rgba(0, 0, 0, 0.7); /* Slight transparent background */
+    background: rgba(0, 0, 0, 0.0); /* Slight transparent background */
     padding: 10px;
     border-radius: 5px;
     width: 80%; /* Adjust width as needed */
