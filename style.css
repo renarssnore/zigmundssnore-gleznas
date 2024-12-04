@@ -77,7 +77,7 @@ section {
     position: relative; /* This makes the container the reference point for absolute positioning */
     overflow: hidden;   /* Ensure child elements don't overflow the container */
     width: 100%;
-    max-width: 350px;
+    max-width: 500px;
 }
 #gallery {
     padding: 20px;
