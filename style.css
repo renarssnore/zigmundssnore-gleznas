@@ -116,9 +116,8 @@ section {
 }
 
 .image-info {
-    margin-top: 10px; /* Adds spacing between the image and the info box */
-    text-align: center;
-    justify-items: center;
+    margin: 10px auto; /* Centers the box horizontally and adds vertical spacing */
+    text-align: center; /* Centers the text inside the box */
     color: white;
     padding: 10px;
     border-radius: 5px;
