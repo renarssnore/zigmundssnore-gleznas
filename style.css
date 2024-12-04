@@ -142,11 +142,11 @@ section {
 @media (max-width: 768px) {
     .buttons {
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
     }
 
     .button {
-        width: 100%;
+        width: 80%;
     }
 
     .gallery-container {
