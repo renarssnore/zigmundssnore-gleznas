@@ -46,23 +46,6 @@ section {
     text-align: center;
 }
 
-/* Pricing Section */
-.pricing {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-}
-
-.pricing-item {
-    background: #222;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-.pricing-item h2 {
-    margin-top: 0;
-}
-
 /* Buttons */
 .buttons {
     display: flex;
@@ -85,11 +68,8 @@ section {
 }
 
 .button.whatsapp { background: #25D366; }
-.button.tiktok { background: #FF0050; color: #000; }
 .button.facebook { background: #1877F2; }
 .button.gmail {background: #C71610; }
-.button.instagram { background: #FCCC63; color: #000; }
-
 /* Gallery Section */
 #gallery {
     padding: 20px;
