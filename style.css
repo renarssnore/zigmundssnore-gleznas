@@ -70,6 +70,7 @@ section {
 .button.whatsapp { background: #25D366; }
 .button.facebook { background: #1877F2; }
 .button.gmail {background: #C71610; }
+
 /* Gallery Section */
 #gallery {
     padding: 20px;
@@ -147,12 +148,12 @@ section {
     }
 
     .gallery-container {
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); /* Adjusts the size for smaller screens */
-        gap: 15px; /* Increases the gap between images */
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Keeps responsive behavior */
+        gap: 15px; /* Increase the gap between images */
     }
 
     .gallery-container img {
-        max-width: 260px; /* Reduces the maximum size of the images */
+        max-width: 100%; /* Ensure the image scales properly */
     }
 }
 
@@ -164,5 +165,14 @@ section {
 
     header nav ul li {
         margin: 5px 0; /* Adjusts spacing for smaller screens */
+    }
+
+    .gallery-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust columns for smaller screens */
+        gap: 10px; /* Reduce the gap between images */
+    }
+
+    .gallery-container img {
+        max-width: 100%; /* Ensure the images stay responsive */
     }
 }
