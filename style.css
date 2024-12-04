@@ -60,7 +60,7 @@ section {
     text-decoration: none;
     font-weight: bold;
     color: #fff;
-    transition: background 0.3s, opacity 0.3s;
+    transition: background 0.3s;
 }
 
 .button:hover {
@@ -69,17 +69,16 @@ section {
 
 .button.whatsapp { background: #25D366; }
 .button.facebook { background: #1877F2; }
-.button.gmail { background: #C71610; }
-
+.button.gmail {background: #C71610; }
 /* Gallery Section */
 #gallery {
     padding: 20px;
     text-align: center;
     background-color: #111;
-    display: flex; /* Consider removing flex if not necessary */
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
 }
 
 #gallery h2 {
@@ -93,7 +92,7 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 5px;
     justify-items: center;
-    align-items: center;
+    align-items: center; /* Centers vertically */
 }
 
 .gallery-container img {
@@ -108,6 +107,7 @@ section {
 .gallery-container img:hover {
     transform: scale(1.1);
 }
+
 
 /* Lightbox styles */
 .lightbox {
@@ -142,35 +142,27 @@ section {
 /* Media Queries for Mobile Optimization */
 @media (max-width: 768px) {
     .buttons {
-        flex-direction: column;
+        flex-direction: column; /* Stacks buttons vertically */
         gap: 10px;
     }
 
-    .button {
-        width: 100%; /* Ensure buttons take full width */
-    }
-
     .gallery-container {
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-        gap: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Adjusts the size for smaller screens */
+        gap: 15px; /* Increases the gap between images */
     }
 
     .gallery-container img {
-        max-width: 200px;
+        max-width: 100px; /* Reduces the maximum size of the images */
     }
 }
 
 @media (max-width: 480px) {
     header nav ul {
-        flex-direction: column;
+        flex-direction: column; /* Stacks navigation items vertically */
         align-items: center;
     }
 
     header nav ul li {
-        margin: 5px 0;
-    }
-
-    section {
-        padding: 10px; /* Reduce padding for smaller screens */
+        margin: 5px 0; /* Adjusts spacing for smaller screens */
     }
 }
