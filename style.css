@@ -152,7 +152,7 @@ section {
     }
 
     .gallery-container img {
-        max-width: 100px; /* Reduces the maximum size of the images */
+        max-width: 200px; /* Reduces the maximum size of the images */
     }
 }
 
