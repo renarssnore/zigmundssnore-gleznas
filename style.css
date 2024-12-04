@@ -75,6 +75,10 @@ section {
     padding: 20px;
     text-align: center;
     background-color: #111;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
 }
 
 #gallery h2 {
@@ -87,8 +91,8 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 5px;
-    justify-items: center
-    align-items: center; /* Centers vertically */;
+    justify-items: center;
+    align-items: center; /* Centers vertically */
 }
 
 .gallery-container img {
@@ -103,6 +107,7 @@ section {
 .gallery-container img:hover {
     transform: scale(1.1);
 }
+
 
 /* Lightbox styles */
 .lightbox {
