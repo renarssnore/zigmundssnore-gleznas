@@ -87,7 +87,8 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 5px;
-    justify-items: center;
+    justify-items: center
+    align-items: center; /* Centers vertically */;
 }
 
 .gallery-container img {
