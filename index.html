@@ -39,65 +39,23 @@
         <section id="gallery">
             <h2>Pieejamie mākslinieka darbi</h2>
             <div class="gallery-container">
-                <div class="gallery-item">
-                    <img src="photo1.jpg" alt="Gallery Photo 1" data-src="photo1.jpg">
-                    <div class="image-info">
-                        <p class="image-name">Name 1</p>
-                        <p class="image-size">100x100 cm</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="photo2.jpg" alt="Gallery Photo 2" data-src="photo2.jpg">
-                    <div class="image-info">
-                        <p class="image-name">Name 2</p>
-                        <p class="image-size">120x80 cm</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="photo3.jpg" alt="Gallery Photo 3" data-src="photo3.jpg">
-                    <div class="image-info">
-                        <p class="image-name">Name 3</p>
-                        <p class="image-size">110x90 cm</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="photo4.jpg" alt="Gallery Photo 4" data-src="photo4.jpg">
-                    <div class="image-info">
-                        <p class="image-name">Name 4</p>
-                        <p class="image-size">100x100 cm</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="photo5.jpg" alt="Gallery Photo 5" data-src="photo5.jpg">
-                    <div class="image-info">
-                        <p class="image-name">Name 5</p>
-                        <p class="image-size">90x80 cm</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="photo6.jpg" alt="Gallery Photo 6" data-src="photo6.jpg">
-                    <div class="image-info">
-                        <p class="image-name">Name 6</p>
-                        <p class="image-size">130x100 cm</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="photo7.jpg" alt="Gallery Photo 7" data-src="photo7.jpg">
-                    <div class="image-info">
-                        <p class="image-name">Name 7</p>
-                        <p class="image-size">140x90 cm</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="photo8.jpg" alt="Gallery Photo 8" data-src="photo8.jpg">
-                    <div class="image-info">
-                        <p class="image-name">Name 8</p>
-                        <p class="image-size">120x100 cm</p>
-                    </div>
-                </div>
+                <img src="photo1.jpg" alt="Gallery Photo 1" data-src="photo1.jpg">
+                <img src="photo2.jpg" alt="Gallery Photo 2" data-src="photo2.jpg">
+                <img src="photo3.jpg" alt="Gallery Photo 3" data-src="photo3.jpg">
+                <img src="photo4.jpg" alt="Gallery Photo 4" data-src="photo4.jpg">
+                <img src="photo5.jpg" alt="Gallery Photo 5" data-src="photo5.jpg">
+                <img src="photo6.jpg" alt="Gallery Photo 6" data-src="photo6.jpg">
+                <img src="photo7.jpg" alt="Gallery Photo 7" data-src="photo7.jpg">
+                <img src="photo8.jpg" alt="Gallery Photo 8" data-src="photo8.jpg">
             </div>
         </section>
     </main>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">×</span>
+        <img id="lightbox-image" src="" alt="Lightbox Image">
+    </div>
 
     <script src="script.js"></script>
 </body>
