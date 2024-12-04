@@ -117,7 +117,7 @@ section {
 
 .image-info {
     position: absolute; /* This makes it absolute relative to .gallery-item */
-    top: 0; /* Places it at the top of the parent container */
+    top: -50; /* Places it at the top of the parent container */
     left: 50%; /* Horizontally centers it */
     transform: translateX(-50%); /* Adjusts the positioning to perfectly center */
     text-align: center;
