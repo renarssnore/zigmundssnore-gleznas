@@ -73,6 +73,12 @@ section {
 .button.gmail { background: #C71610; }
 
 /* Gallery Section */
+.gallery-item {
+    position: relative; /* This makes the container the reference point for absolute positioning */
+    overflow: hidden;   /* Ensure child elements don't overflow the container */
+    width: 100%;
+    max-width: 350px;
+}
 #gallery {
     padding: 20px;
     text-align: center;
@@ -109,6 +115,28 @@ section {
     transform: scale(1.1);
 }
 
+.image-info {
+    position: absolute; /* This makes it absolute relative to .gallery-item */
+    top: 0; /* Places it at the top of the parent container */
+    left: 50%; /* Horizontally centers it */
+    transform: translateX(-50%); /* Adjusts the positioning to perfectly center */
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.7); /* Slight transparent background */
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 80%; /* You can adjust the width as needed */
+}
+
+.image-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.image-size {
+    font-size: 1rem;
+    margin-top: 5px;
+}
 /* Lightbox styles */
 .lightbox {
     display: none;
