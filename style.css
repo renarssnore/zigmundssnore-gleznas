@@ -118,12 +118,12 @@ section {
 .image-info {
     margin-top: 10px; /* Adds spacing between the image and the info box */
     text-align: center;
+    justify-items: center;
     color: white;
     padding: 10px;
     border-radius: 5px;
     width: 80%; /* Adjust width as needed */
     font-size: 0.9rem; /* Slightly smaller font for better fit */
-    justify-items: center;
 }
 
 .image-name {
