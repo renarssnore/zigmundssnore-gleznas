@@ -147,12 +147,12 @@ section {
     }
 
     .gallery-container {
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Adjusts the size for smaller screens */
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); /* Adjusts the size for smaller screens */
         gap: 15px; /* Increases the gap between images */
     }
 
     .gallery-container img {
-        max-width: 100px; /* Reduces the maximum size of the images */
+        max-width: 260px; /* Reduces the maximum size of the images */
     }
 }
 
