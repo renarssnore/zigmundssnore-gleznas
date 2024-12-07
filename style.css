@@ -98,7 +98,7 @@ section {
     gap: 20px; /* Increase gap for better spacing between images */
     justify-items: center;
     align-items: center;
-    grid-template-columns: repeat(1, 1fr); /* Default to 1 column for mobile */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Makes grid flexible */
 }
 
 .gallery-container img {
@@ -187,7 +187,7 @@ section {
     }
 }
 
-/* Media Query for tablets and larger screens */
+/* Media Query for tablets and larger screens (Desktop) */
 @media (min-width: 769px) {
     .gallery-container {
         grid-template-columns: repeat(4, 1fr); /* 4 columns on desktop */
