@@ -96,7 +96,7 @@ section {
 /* Gallery Container */
 .gallery-container {
     display: grid;
-    grid-template-columns: 1fr; /* Ensure one image per row */
+    grid-template-columns: 4fr; /* Ensure one image per row */
     gap: 20px; /* Increase gap for better spacing between images */
     justify-items: center;
     align-items: center;
