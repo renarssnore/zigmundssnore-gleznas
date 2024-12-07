@@ -103,7 +103,7 @@ section {
 
 .gallery-container img {
     width: 100%;
-    max-width: 350px; /* You can adjust this to make images smaller or larger */
+    max-width: 421px; /* You can adjust this to make images smaller or larger */
     border: 2px solid white;
     border-radius: 5px;
     transition: transform 0.3s;
