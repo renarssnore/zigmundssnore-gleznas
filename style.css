@@ -49,13 +49,12 @@ section {
 /* Image Section Above Gallery */
 #before-gallery {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center; /* Centers the content horizontally */
     gap: 15px;
     align-items: center;
     margin: 20px 0;
     text-align: center;
 }
-
 .image-left, .image-right {
     width: 20%; /* Adjust size of images */
 }
