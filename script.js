@@ -34,4 +34,11 @@ document.addEventListener('DOMContentLoaded', () => {
             lightbox.style.display = 'none';
         }
     });
+
+    // Optionally, close the lightbox when pressing the "Esc" key
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+            lightbox.style.display = 'none';
+        }
+    });
 });
