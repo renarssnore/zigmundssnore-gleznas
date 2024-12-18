@@ -56,7 +56,7 @@ section {
 }
 
 .image-left, .image-right {
-    width: 25%; /* Adjust size of images */
+    width: 40%; /* Adjust size of images */
 }
 
 .gallery-item {
