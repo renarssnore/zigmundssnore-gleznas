@@ -201,7 +201,7 @@ section {
 
     /* Gallery - Mobile view (1 column) */
     .gallery-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
         gap: 15px;
     }
 
