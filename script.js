@@ -1,4 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Prevent back button from closing the page
+    history.pushState(null, document.title, location.href);
+    window.onpopstate = function () {
+        history.pushState(null, document.title, location.href); // Keep the user on the current page
+    };
+
     // Smooth scroll for navigation links
     const links = document.querySelectorAll('header nav ul li a');
     links.forEach(link => {
