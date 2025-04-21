@@ -101,9 +101,6 @@ section {
 }
 
 /* Gallery Section */
-<img src="photo123.jpg" alt="Gallery Photo -123" data-src="photo123.jpg" style="width: 100%; max-width: 800px;">
-
-
 #gallery {
     padding: 20px;
     text-align: center;
@@ -244,4 +241,9 @@ section {
     section {
         padding: 10px;
     }
+}
+/* Specific image adjustments for photo123 and photo7 */
+#photo123, #photo7 {
+    width: 100%; /* Set them to full width */
+    max-width: 800px; /* Max width to avoid stretching too much */
 }
