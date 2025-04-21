@@ -101,6 +101,9 @@ section {
 }
 
 /* Gallery Section */
+<img src="photo123.jpg" alt="Gallery Photo -123" data-src="photo123.jpg" style="width: 100%; max-width: 800px;">
+
+
 #gallery {
     padding: 20px;
     text-align: center;
