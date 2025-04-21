@@ -286,6 +286,13 @@ background-repeat: no-repeat;          /* lai nerēgojas vairākas */
         padding: 10px;
     }
 }
+
+@media (max-width: 768px) {
+    #jaunakie-darbi .artwork img {
+        max-width: 90%; /* ← Palielina bildi uz telefona */
+    }
+}
+
 /* Specific image adjustments for photo123 and photo7 */
 #photo123, #photo7 {
     width: 100%; /* Set them to full width */
