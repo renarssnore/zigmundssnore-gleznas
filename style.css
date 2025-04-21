@@ -103,7 +103,11 @@ section {
 /* === Jaunākie mākslinieka darbi sekcija === */
 #jaunakie-darbi {
     padding: 2em;
-    background-color: #f9f9f9;
+    background-image: url('photo123blur.jpg'); /* ← šeit bilde */
+background-size: cover;                /* lai aizpilda visu laukumu */
+background-position: center;           /* lai bilde būtu centrā */
+background-repeat: no-repeat;          /* lai nerēgojas vairākas */
+
     text-align: center;
 }
 
