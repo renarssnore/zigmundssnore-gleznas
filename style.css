@@ -246,7 +246,10 @@ background-repeat: no-repeat;          /* lai nerēgojas vairākas */
         grid-template-columns: 2fr;
         gap: 15px;
     }
-
+.artwork img {
+        max-width: 80%;
+    }
+}
     .gallery-container img {
         max-width: 300px;
     }
@@ -281,9 +284,4 @@ background-repeat: no-repeat;          /* lai nerēgojas vairākas */
     section {
         padding: 10px;
     }
-}
-/* Specific image adjustments for photo123 and photo7 */
-#photo123, #photo7 {
-    width: 100%; /* Set them to full width */
-    max-width: 800px; /* Max width to avoid stretching too much */
 }
