@@ -103,11 +103,7 @@ section {
 /* === Jaunākie mākslinieka darbi sekcija === */
 #jaunakie-darbi {
     padding: 2em;
-    background-image: url('photo123blur.jpg'); /* ← šeit bilde */
-background-size: cover;                /* lai aizpilda visu laukumu */
-background-position: center;           /* lai bilde būtu centrā */
-background-repeat: no-repeat;          /* lai nerēgojas vairākas */
-
+    background-color: #f9f9f9;
     text-align: center;
 }
 
@@ -119,7 +115,7 @@ background-repeat: no-repeat;          /* lai nerēgojas vairākas */
 }
 
 .artwork img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -246,7 +242,7 @@ background-repeat: no-repeat;          /* lai nerēgojas vairākas */
         grid-template-columns: 2fr;
         gap: 15px;
     }
-    
+
     .gallery-container img {
         max-width: 300px;
     }
@@ -281,4 +277,9 @@ background-repeat: no-repeat;          /* lai nerēgojas vairākas */
     section {
         padding: 10px;
     }
+}
+/* Specific image adjustments for photo123 and photo7 */
+#photo123, #photo7 {
+    width: 100%; /* Set them to full width */
+    max-width: 800px; /* Max width to avoid stretching too much */
 }
