@@ -127,6 +127,10 @@ background-repeat: no-repeat;          /* lai nerēgojas vairākas */
 
 .description {
     max-width: 600px;
+       font-size: 2.2rem; /* ← Palielina tekstu */
+    font-weight: bold;
+    color: white; /* ← Vari pielikt krāsu, ja vajag izcelt */
+    text-shadow: 1px 1px 3px black; /* ← Pievieno nedaudz kontrasta fonā */
 }
 
 .description h3 {
