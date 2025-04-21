@@ -246,10 +246,7 @@ background-repeat: no-repeat;          /* lai nerēgojas vairākas */
         grid-template-columns: 2fr;
         gap: 15px;
     }
-.jaunakie img {
-        max-width: 80%;
-    }
-}
+    
     .gallery-container img {
         max-width: 300px;
     }
