@@ -226,12 +226,12 @@ background-repeat: no-repeat;          /* lai nerēgojas vairākas */
 }
 
 .button:hover {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .button.whatsapp { background: #25D366; }
 .button.facebook { background: #1877F2; }
-.button.sms { background: #adb5bd; }
+.button.sms { background: #db833b; }
 
 /* Media Queries for Mobile Optimization */
 @media (max-width: 768px) {
