@@ -47,7 +47,6 @@ section {
 }
 
 /* Image Section Above Gallery */
-
 #before-gallery {
     display: flex;
     justify-content: center; /* Centers the content horizontally */
@@ -56,6 +55,7 @@ section {
     margin: 20px 20px;
     text-align: center;
 }
+
 .image-left, .image-right {
     width: 20%; /* Adjust size of images */
 }
@@ -83,6 +83,7 @@ section {
     transition: transform 0.3s;
     cursor: pointer;
 }
+
 .gallery-item img:hover {
     transform: scale(1);
 }
@@ -106,9 +107,6 @@ section {
     font-size: 1rem;
     margin-top: 5px;
 }
-/*
-ss
-*/
 
 .izstades {
     display: flex;
@@ -124,18 +122,9 @@ ss
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-@media (max-width: 768px) 
-    #izstades img {
-    img[src="plakats.jpg"] 
-        width: 200%;
-        height: auto;
-        display: block;
-    }
-
-
 .description {
     max-width: 600px;
-       font-size: 2.2rem; /* ← Palielina tekstu */
+    font-size: 2.2rem; /* ← Palielina tekstu */
     font-weight: bold;
     color: white; /* ← Vari pielikt krāsu, ja vajag izcelt */
     text-shadow: 1px 1px 3px black; /* ← Pievieno nedaudz kontrasta fonā */
@@ -149,7 +138,6 @@ ss
     font-size: 1em;
     color: #333;
 }
-
 
 /* Gallery Section */
 #gallery {
@@ -296,7 +284,12 @@ ss
     }
 }
 
-
-
-
-
+/* Targeting specific image for mobile screens */
+@media (max-width: 768px) {
+    #izstades img[src="plakats.jpg"] {
+        width: 200%; /* Makes the image larger */
+        height: auto; /* Maintains aspect ratio */
+        display: block; /* Removes inline issues */
+        margin: 0 auto; /* Centers the image */
+    }
+}
