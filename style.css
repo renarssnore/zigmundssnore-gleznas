@@ -261,6 +261,14 @@ section {
         width: 80%; /* Adjust width for mobile view */
         margin-bottom: 20px; /* Add space between images */
     }
+
+    /* Targeting specific image for mobile screens */
+    #izstades img[src="plakats.jpg"] {
+        width: 400%; /* Makes the image larger on mobile */
+        height: auto; /* Maintains aspect ratio */
+        display: block; /* Removes inline issues */
+        margin: 0 auto; /* Centers the image */
+    }
 }
 
 @media (min-width: 769px) {
@@ -281,15 +289,5 @@ section {
 
     section {
         padding: 10px;
-    }
-}
-
-/* Targeting specific image for mobile screens */
-@media (max-width: 768px) {
-    #izstades img[src="plakats.jpg"] {
-        width: 200%; /* Makes the image larger */
-        height: auto; /* Maintains aspect ratio */
-        display: block; /* Removes inline issues */
-        margin: 0 auto; /* Centers the image */
     }
 }
