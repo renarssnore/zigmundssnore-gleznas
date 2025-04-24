@@ -124,13 +124,13 @@ ss
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-@media (max-width: 768px) {
-    img[src="plakats.jpg"] {
+@media (max-width: 768px) 
+    #izstades img {
+    img[src="plakats.jpg"] 
         width: 200%;
         height: auto;
         display: block;
     }
-}
 
 
 .description {
