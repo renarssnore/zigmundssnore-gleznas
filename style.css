@@ -289,8 +289,7 @@ ss
 /* ← PalielHZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZa */
 @media (max-width: 768px) {
     #izstades img {
-        height: auto;
-        display: block;
+ max-width: 300px;
     }
 }
 
