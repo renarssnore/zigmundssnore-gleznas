@@ -108,36 +108,6 @@ section {
     margin-top: 5px;
 }
 
-.izstades {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1em;
-}
-
-.izstades img {
-    max-width: 30%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.description {
-    max-width: 600px;
-    font-size: 2.2rem; /* ← Palielina tekstu */
-    font-weight: bold;
-    color: white; /* ← Vari pielikt krāsu, ja vajag izcelt */
-    text-shadow: 1px 1px 3px black; /* ← Pievieno nedaudz kontrasta fonā */
-}
-
-.description h3 {
-    margin: 0.5em 0 0.2em;
-}
-
-.description p {
-    font-size: 1em;
-    color: #333;
-}
 
 /* Gallery Section */
 #gallery {
@@ -262,14 +232,7 @@ section {
         margin-bottom: 20px; /* Add space between images */
     }
 
-    /* Targeting specific image for mobile screens */
-    #izstades img[src="plakats.jpg"] {
-        width: 400%; /* Makes the image larger on mobile */
-        height: auto; /* Maintains aspect ratio */
-        display: block; /* Removes inline issues */
-        margin: 0 auto; /* Centers the image */
-    }
-}
+  
 
 @media (min-width: 769px) {
     .gallery-container {
