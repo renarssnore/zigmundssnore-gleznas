@@ -56,7 +56,7 @@ section {
     text-align: center;
 }
 
-.image-left, .image-middle, .image-right  {
+.image-left, .image-right, .image-right  {
     width: 20%; /* Adjust size of images */
 }
 
