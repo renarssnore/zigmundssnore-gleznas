@@ -288,8 +288,10 @@ ss
 }
 /* ← PalielHZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZa */
 @media (max-width: 768px) {
-    #jaunakie-darbi .gallery-item0 img {
-        max-width: 100%; /* ← Palielina bildi uz telefona */
+    #izstades img {
+        width: 150%;
+        height: auto;
+        display: block;
     }
 }
 
