@@ -100,8 +100,8 @@ section {
     margin-top: 5px;
 }
 
-/* === Jaunākie mākslinieka darbi sekcija === */
-#jaunakie-darbi {
+/* === izstades sekcija === */
+#izstades {
     padding: 2em;
     background-image: url('photo123blur.jpg'); /* ← šeit bilde */
 background-size: cover;                /* lai aizpilda visu laukumu */
@@ -111,14 +111,14 @@ background-repeat: no-repeat;          /* lai nerēgojas vairākas */
     text-align: center;
 }
 
-.artwork {
+.izstades {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1em;
 }
 
-.artwork img {
+.izstades img {
     max-width: 50%;
     height: auto;
     border-radius: 12px;
