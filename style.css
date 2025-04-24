@@ -76,6 +76,13 @@ section {
     cursor: pointer;
 }
 
+.gallery-item0 img {
+    width: 70%;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
 .gallery-item img:hover {
     transform: scale(1);
 }
@@ -279,10 +286,10 @@ ss
         padding: 10px;
     }
 }
-
+/* ← PalielHZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZa */
 @media (max-width: 768px) {
-    #jaunakie-darbi .artwork img {
-        max-width: 90%; /* ← Palielina bildi uz telefona */
+    #jaunakie-darbi .gallery-item0 img {
+        max-width: 100%; /* ← Palielina bildi uz telefona */
     }
 }
 
