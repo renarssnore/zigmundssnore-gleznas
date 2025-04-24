@@ -99,17 +99,9 @@ section {
     font-size: 1rem;
     margin-top: 5px;
 }
-
-/* === izstades sekcija === */
-#izstades {
-    padding: 2em;
-    background-image: url('photo123blur.jpg'); /* ← šeit bilde */
-background-size: cover;                /* lai aizpilda visu laukumu */
-background-position: center;           /* lai bilde būtu centrā */
-background-repeat: no-repeat;          /* lai nerēgojas vairākas */
-
-    text-align: center;
-}
+/*
+ss
+*/
 
 .izstades {
     display: flex;
