@@ -124,6 +124,15 @@ ss
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+@media (max-width: 768px) {
+    img[src="plakats.jpg"] {
+        width: 200%;
+        height: auto;
+        display: block;
+    }
+}
+
+
 .description {
     max-width: 600px;
        font-size: 2.2rem; /* ← Palielina tekstu */
@@ -289,12 +298,5 @@ ss
 
 
 
-@media (max-width: 768px) {
-    img[src="plakats.jpg"] {
-        width: 200%;
-        height: auto;
-        display: block;
-    }
-}
 
 
