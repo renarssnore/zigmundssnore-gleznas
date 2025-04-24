@@ -286,15 +286,15 @@ ss
         padding: 10px;
     }
 }
-/* ← PalielHZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZa */
+
+
+
 @media (max-width: 768px) {
     #izstades img {
- max-width: 300px;
+        width: 150%; /* ← Padara bildi lielāku */
+        height: auto; /* ← Saglabā proporcijas */
+        display: block; /* ← Noņem inline dīvainības */
+        margin: 0 auto; /* ← Ja gribi centram */
     }
 }
 
-/* Specific image adjustments for photo123 and photo7 */
-#photo123, #photo7 {
-    width: 100%; /* Set them to full width */
-    max-width: 800px; /* Max width to avoid stretching too much */
-}
