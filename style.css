@@ -291,7 +291,7 @@ ss
 
 @media (max-width: 768px) {
     #izstades img {
-        width: 150%; /* ← Padara bildi lielāku */
+        width: 1000%; /* ← Padara bildi lielāku */
         height: auto; /* ← Saglabā proporcijas */
         display: block; /* ← Noņem inline dīvainības */
         margin: 0 auto; /* ← Ja gribi centram */
