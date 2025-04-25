@@ -56,16 +56,14 @@ section {
     text-align: center;
 }
 
-#before-gallery img {
-    width: 60%;
-    max-width: 400px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+.image-left {
+    width: 20%;
+    max-width: 200px;
 }
 
-.image-left, .image-right {
-    width: 20%;
+.image-right {
+    width: 40%;
+    max-width: 300px;
 }
 
 /* Gallery Items */
