@@ -226,13 +226,20 @@ section {
     #before-gallery {
         flex-direction: column;
     }
-
+    
+    #before-gallery img {
+        width: 100%; /* or like 80%, 60%, whatever looks good */
+        max-width: 300px; /* limit how big they get */
+        height: auto; /* keep aspect ratio */
+        margin: 0 auto; /* center them if needed */
+        display: block; /* helps with the centering */
+    }
     .image-left, .image-middle {
         width: 80%; /* Adjust width for mobile view */
         margin-bottom: 20px; /* Add space between images */
     }
 
-  
+}
 
 @media (min-width: 769px) {
     .gallery-container {
