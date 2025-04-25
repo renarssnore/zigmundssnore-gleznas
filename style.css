@@ -231,16 +231,13 @@ section {
         flex-direction: column;
     }
 
-    #before-gallery img {
-        width: 100%;
-        max-width: 300px;
-        height: auto;
-        margin: 0 auto;
-        display: block;
+    .image-left {
+        width: 80%;
+        margin-bottom: 20px;
     }
 
-    .image-left, .image-middle {
-        width: 80%;
+    .image-right {
+        width: 110%;
         margin-bottom: 20px;
     }
 }
