@@ -49,23 +49,32 @@ section {
 /* Image Section Above Gallery */
 #before-gallery {
     display: flex;
-    justify-content: center; /* Centers the content horizontally */
+    justify-content: center;
     gap: 35px;
     align-items: center;
     margin: 20px 20px;
     text-align: center;
 }
 
-.image-left, .image-right,  {
-    width: 20%; /* Adjust size of images */
+#before-gallery img {
+    width: 60%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
+.image-left, .image-right {
+    width: 20%;
+}
+
+/* Gallery Items */
 .gallery-item {
     position: relative;
     overflow: hidden;
     width: 100%;
     max-width: 100%;
-    margin-bottom: 20px; /* Adds spacing between images */
+    margin-bottom: 20px;
 }
 
 .gallery-item img {
@@ -107,7 +116,6 @@ section {
     font-size: 1rem;
     margin-top: 5px;
 }
-
 
 /* Gallery Section */
 #gallery {
@@ -198,7 +206,7 @@ section {
 .button.whatsapp { background: #25D366; }
 .button.facebook { background: #1877F2; }
 .button.sms { background: #db833b; }
-.button.instagram { background: linear-gradient(to right, #E1306C, #515BD4) }
+.button.instagram { background: linear-gradient(to right, #E1306C, #515BD4); }
 
 /* Media Queries for Mobile Optimization */
 @media (max-width: 768px) {
@@ -212,7 +220,6 @@ section {
         width: 92%;
     }
 
-    /* Gallery - Mobile view (1 column) */
     .gallery-container {
         grid-template-columns: 2fr;
         gap: 15px;
@@ -222,28 +229,27 @@ section {
         max-width: 300px;
     }
 
-    /* Image Section on Mobile */
     #before-gallery {
         flex-direction: column;
     }
-    
+
     #before-gallery img {
-        width: 100%; /* or like 80%, 60%, whatever looks good */
-        max-width: 300px; /* limit how big they get */
-        height: auto; /* keep aspect ratio */
-        margin: 0 auto; /* center them if needed */
-        display: block; /* helps with the centering */
-    }
-    .image-left, .image-middle {
-        width: 80%; /* Adjust width for mobile view */
-        margin-bottom: 20px; /* Add space between images */
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
     }
 
+    .image-left, .image-middle {
+        width: 80%;
+        margin-bottom: 20px;
+    }
 }
 
 @media (min-width: 769px) {
     .gallery-container {
-        grid-template-columns: repeat(4, 1fr); /* 4 columns on desktop */
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
