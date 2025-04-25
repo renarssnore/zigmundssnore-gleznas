@@ -58,7 +58,7 @@ section {
 
 .image-left {
     width: 60%;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .image-right {
@@ -232,7 +232,7 @@ section {
     }
 
     .image-left {
-        width: 80%;
+        width: 100%;
         margin-bottom: 20px;
     }
 
